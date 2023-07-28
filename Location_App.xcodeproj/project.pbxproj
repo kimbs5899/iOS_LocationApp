@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C199FA392A5F8D8D00E3C676 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C199FA382A5F8D8D00E3C676 /* LocationManager.swift */; };
+		C1D2A1D62A5E3C4200DDB5C8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A1D52A5E3C4200DDB5C8 /* DetailViewController.swift */; };
+		C1D2A1D82A5E461000DDB5C8 /* SearchResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A1D72A5E461000DDB5C8 /* SearchResultTableViewController.swift */; };
 		C1D38CC32A5CE86E00DD93D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D38CC22A5CE86E00DD93D6 /* AppDelegate.swift */; };
 		C1D38CC52A5CE86E00DD93D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D38CC42A5CE86E00DD93D6 /* SceneDelegate.swift */; };
-		C1D38CC72A5CE86E00DD93D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D38CC62A5CE86E00DD93D6 /* ViewController.swift */; };
+		C1D38CC72A5CE86E00DD93D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D38CC62A5CE86E00DD93D6 /* MainViewController.swift */; };
 		C1D38CCA2A5CE86E00DD93D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D38CC82A5CE86E00DD93D6 /* Main.storyboard */; };
 		C1D38CCC2A5CE87000DD93D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D38CCB2A5CE87000DD93D6 /* Assets.xcassets */; };
 		C1D38CCF2A5CE87000DD93D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D38CCD2A5CE87000DD93D6 /* LaunchScreen.storyboard */; };
 		C1D38CDA2A5CE87100DD93D6 /* Location_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D38CD92A5CE87100DD93D6 /* Location_AppTests.swift */; };
 		C1D38CE42A5CE87100DD93D6 /* Location_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D38CE32A5CE87100DD93D6 /* Location_AppUITests.swift */; };
 		C1D38CE62A5CE87100DD93D6 /* Location_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D38CE52A5CE87100DD93D6 /* Location_AppUITestsLaunchTests.swift */; };
+		C1D38CF32A5CEB4E00DD93D6 /* PinLandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D38CF22A5CEB4E00DD93D6 /* PinLandMark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C199FA382A5F8D8D00E3C676 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C199FA3A2A5F98D800E3C676 /* Korea.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Korea.gpx; sourceTree = "<group>"; };
+		C1D2A1D52A5E3C4200DDB5C8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C1D2A1D72A5E461000DDB5C8 /* SearchResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewController.swift; sourceTree = "<group>"; };
 		C1D38CBF2A5CE86E00DD93D6 /* Location_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Location_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D38CC22A5CE86E00DD93D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1D38CC42A5CE86E00DD93D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1D38CC62A5CE86E00DD93D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1D38CC62A5CE86E00DD93D6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C1D38CC92A5CE86E00DD93D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1D38CCB2A5CE87000DD93D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1D38CCE2A5CE87000DD93D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,7 @@
 		C1D38CDF2A5CE87100DD93D6 /* Location_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Location_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D38CE32A5CE87100DD93D6 /* Location_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_AppUITests.swift; sourceTree = "<group>"; };
 		C1D38CE52A5CE87100DD93D6 /* Location_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1D38CF22A5CEB4E00DD93D6 /* PinLandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinLandMark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +110,12 @@
 			children = (
 				C1D38CC22A5CE86E00DD93D6 /* AppDelegate.swift */,
 				C1D38CC42A5CE86E00DD93D6 /* SceneDelegate.swift */,
-				C1D38CC62A5CE86E00DD93D6 /* ViewController.swift */,
+				C1D38CC62A5CE86E00DD93D6 /* MainViewController.swift */,
+				C1D2A1D52A5E3C4200DDB5C8 /* DetailViewController.swift */,
+				C1D38CF22A5CEB4E00DD93D6 /* PinLandMark.swift */,
+				C1D2A1D72A5E461000DDB5C8 /* SearchResultTableViewController.swift */,
+				C199FA3A2A5F98D800E3C676 /* Korea.gpx */,
+				C199FA382A5F8D8D00E3C676 /* LocationManager.swift */,
 				C1D38CC82A5CE86E00DD93D6 /* Main.storyboard */,
 				C1D38CCB2A5CE87000DD93D6 /* Assets.xcassets */,
 				C1D38CCD2A5CE87000DD93D6 /* LaunchScreen.storyboard */,
@@ -258,7 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1D38CC72A5CE86E00DD93D6 /* ViewController.swift in Sources */,
+				C1D38CC72A5CE86E00DD93D6 /* MainViewController.swift in Sources */,
+				C1D38CF32A5CEB4E00DD93D6 /* PinLandMark.swift in Sources */,
+				C1D2A1D82A5E461000DDB5C8 /* SearchResultTableViewController.swift in Sources */,
+				C199FA392A5F8D8D00E3C676 /* LocationManager.swift in Sources */,
+				C1D2A1D62A5E3C4200DDB5C8 /* DetailViewController.swift in Sources */,
 				C1D38CC32A5CE86E00DD93D6 /* AppDelegate.swift in Sources */,
 				C1D38CC52A5CE86E00DD93D6 /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +455,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T92LV6HV88;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Location_App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +483,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T92LV6HV88;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Location_App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
